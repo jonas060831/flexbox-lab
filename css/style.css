@@ -58,7 +58,16 @@ input {
 
 main {
     background-color: white;
+    /* background-color: red; */
     padding: 32px 72px;
+    /* Step 4.0 */
+    display: flex;
+     /* Step 4.1 */
+    flex-wrap: wrap;
+     /* Step 4.2 */
+     gap: 1rem;
+     /* Step 4.3 */
+    justify-content: flex-start;
 }
 
 nav button {
@@ -79,6 +88,10 @@ nav button {
 
 .card-footer {
     font-size: 14px;
+    /* Step 5.0 */
+    display: flex;
+    /* Step 5.1 */
+    justify-content: space-between;
 }
 
 .card-footer * {
@@ -88,6 +101,10 @@ nav button {
 #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    /* Step 3.0 */
+    display: flex;
+    /* Step 3.1 */
+    justify-content: space-between;
 }
 
 #subnav button {
@@ -124,5 +141,26 @@ nav button {
 }
 
 /* Step 2.0 */
-
+#hero {
+    /* background-color: red; */
+    /* Step 2.1 */
+    display: flex;
+    /* Step 2.2 */
+    flex-direction: column;
+    /* Step 2.7 */
+    align-items: center;
+    /* Step 2.8 */
+    justify-content: space-around;
 }
+/*Step 2.3 */
+#trending {
+    /* Step 2.4 */
+    display: flex;
+    /* background-color: green; */
+    /* Step 2.5 */
+    gap: 1rem;
+    /* Step 2.6 */
+    align-items: center;
+}
+
+
